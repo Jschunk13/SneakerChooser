@@ -2,11 +2,11 @@ print("Thank You For Testing My Idea")
 print("This program will help you decide on which sneakers to purchase next")
 print("Please answer questions exactly as they appear")
 import webbrowser as wb 
-height = input("Do you prefer High Top or Low Top ")
+height = input("Do you prefer High Top or Low Top? ")
 if height == "High Top":
 	print("I too need that ankle support")
 elif height == "Low Top":
-	print("Exposed Ankle Gang")
+	print("Exposed Ankles")
 else:
 	print("You better not have typed mids")
 print("Your preference is " + height)
@@ -21,14 +21,14 @@ else:
 	print("Pick from one of the three")
 print("Your preference is " + brand)
 print("Almost there two more questions")
-co = input("Do you prefer a Colorful shoe or a more Reserved look? (Type: Colorful or Reserved)")
+co = input("Do you prefer a Colorful shoe or a more Reserved look? (Type: Colorful or Reserved) ")
 if co == "Colorful":
-	print("We out here breaking necks")
+	print("Out here breaking necks")
 elif co == "Reserved":
 	print("Sophisticated")
 else:
 	print("You only have two options")
-expen = input("Do you want to spend Under $100, Under $200, or No Budget")
+expen = input("Do you want to spend Under $100, Under $200, or No Budget? ")
 if expen == "Under $100":
 	print("Savvy Shopper")
 elif expen == "Under $200":
